@@ -1,0 +1,15 @@
+# Podfile for KMM project
+platform :ios, '11.0'
+
+project '../iosApp.xcodeproj'
+
+target 'iosApp' do
+  use_frameworks!
+
+  # Cài đặt Swinject
+  pod 'Swinject', '~> 2.8'
+
+  # Cài đặt KMM shared module
+  pod 'shared', :path => '../../shared'
+end
+

@@ -1,0 +1,18 @@
+CREATE TABLE todo_items (
+    id TEXT NOT NULL PRIMARY KEY,
+    title TEXT NOT NULL,
+    is_done INTEGER NOT NULL,
+    created_at TEXT NOT NULL DEFAULT (CURRENT_TIMESTAMP)
+);
+
+selectAll:
+SELECT * FROM todo_items;
+
+insertTodo:
+INSERT INTO todo_items(id, title, is_done) VALUES (?, ?, ?);
+
+updateTodoStatus:
+UPDATE todo_items SET is_done = ? WHERE id = ?;
+
+deleteTodo:
+DELETE FROM todo_items WHERE id = ?;

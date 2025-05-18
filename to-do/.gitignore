@@ -1,0 +1,79 @@
+*.iml
+.gradle
+.idea
+.DS_Store
+build
+captures
+.externalNativeBuild
+.cxx
+local.properties
+xcuserdata
+.fleet
+.kotlin
+# Xcode
+build/
+DerivedData/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+*.xcworkspace
+!Pods/
+*.xcodeproj/project.xcworkspace/
+*.xcodeproj/xcuserdata/
+
+# Swift Package Manager
+.build/
+Packages/
+.swiftpm/
+.xcodeproj/project.xcworkspace/xcuserdata
+
+# CocoaPods
+Pods/
+Podfile.lock
+*.xcuserstate
+
+# Carthage
+Carthage/
+Carthage/Build/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+fastlane/.env
+
+# Kotlin/Native
+*.klib
+*.konan
+*.kexe
+*.dSYM/
+
+# Gradle (if part of shared KMP module)
+.gradle/
+**/build/
+**/.gradle/
+
+# IDE
+.idea/
+
+# macOS
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Files that might appear on external disks
+.Spotlight-V100
+.Trashes
+
+# User-specific files
+*.swp
+*~.nib
